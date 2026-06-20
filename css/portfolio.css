@@ -1,0 +1,45 @@
+#portfolio {
+  padding: 120px 0;
+}
+
+#portfolio h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+#portfolio ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+
+#portfolio ul li {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+#portfolio ul li img {
+  margin-bottom: 32px;
+}
+
+#portfolio ul li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+#portfolio ul li p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
