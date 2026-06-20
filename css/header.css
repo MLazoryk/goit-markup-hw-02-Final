@@ -1,44 +1,38 @@
-#header {
-  border-bottom: 1px solid #e7e9fc;
+.header .logo-header {
+  line-height: 1.17;
 }
 
-#header .logo {
-  padding: 24px 0;
-  margin-right: 76px;
-}
-
-#header nav ul {
+.nav .nav-list {
   display: flex;
   gap: 40px;
 }
 
-#header nav ul li a {
+.nav .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
-#header nav ul li a:hover,
-#header nav ul li a:focus {
+.nav .nav-link:hover,
+.nav .nav-link:focus {
   color: #404bbf;
 }
 
-#header address ul {
+.address .address-list {
   display: flex;
   gap: 40px;
 }
 
-#header address ul li a {
+.address .address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-#header address ul li a:hover,
-#header address ul li a:focus {
+.address .address-link:hover,
+.address .address-link:focus {
   color: #404bbf;
 }
