@@ -1,10 +1,5 @@
 .header .logo-header {
-  line-height: 1.17;
-}
-
-.nav .nav-list {
-  display: flex;
-  gap: 40px;
+  line-height: 1.33;
 }
 
 .nav .nav-link {
@@ -18,11 +13,6 @@
 .nav .nav-link:hover,
 .nav .nav-link:focus {
   color: #404bbf;
-}
-
-.address .address-list {
-  display: flex;
-  gap: 40px;
 }
 
 .address .address-link {
