@@ -1,8 +1,28 @@
-.header .logo-header {
-  line-height: 1.33;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.nav .nav-link {
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo-header {
+  margin-right: 76px;
+}
+
+.nav {
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -10,19 +30,26 @@
   color: #2e2f42;
 }
 
-.nav .nav-link:hover,
-.nav .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
-.address .address-link {
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address .address-link:hover,
-.address .address-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }

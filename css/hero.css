@@ -1,26 +1,36 @@
 .hero {
   background-color: #2e2f42;
-  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
-.hero .hero-title {
+.hero-title {
+  max-width: 496px;
+  margin: 0 auto 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 
-.hero .hero-button {
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  padding: 16px 32px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
 
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }

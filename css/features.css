@@ -1,14 +1,19 @@
-.features .features-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.features .features-item-title {
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.features-item-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -16,7 +21,7 @@
   color: #2e2f42;
 }
 
-.features .features-item-text {
+.features-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
